@@ -67,7 +67,7 @@ function showCode() {
                 </pre>
 
                 <p style="color:#aaa;font-size:14px;">
-                    Hint: Decode the output of this code to get the flag.
+                    Hint: Decode the output of this code to get the final flag. Not decoded, just displaced !
                 </p>
             </div>
         </div>
