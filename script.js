@@ -73,10 +73,10 @@ function showCode() {
         <p class="note">
             Decode the output above.<br>
             Use <b>_</b> instead of spaces.<br>
-            Flag format: <b>flag{...}</b>
+            Flag format: <b>IE{...}</b>
         </p>
 
-        <input type="text" id="flagInput" placeholder="flag{...}" required>
+        <input type="text" id="flagInput" placeholder="IE{...}" required>
         <button onclick="checkFlag()">Submit Flag</button>
 
         <p id="flagResult" class="error"></p>
@@ -87,7 +87,7 @@ function checkFlag() {
     const input = document.getElementById("flagInput").value.trim();
     const result = document.getElementById("flagResult");
 
-    if (input === "flag{friends_don't_lie}") {
+    if (input === "IE{friends_don't_lie}") {
         result.style.color = "#1abc9c";
         result.textContent = "Correct! You escaped the Hawkins Lab.";
     } else {
