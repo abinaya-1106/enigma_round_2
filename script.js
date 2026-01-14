@@ -71,7 +71,9 @@ function showCode() {
         </div>
 
         <p class="note">
-            Decode the output above.<br>
+            Decode the output of the above code.<br>
+            Your hands already know the encryption.<br>
+            The answer is one just a step away!<br>
             Use <b>_</b> instead of spaces.<br>
             Flag format: <b>IE{...}</b>
         </p>
